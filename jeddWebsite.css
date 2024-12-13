@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    color: #007BFF;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #555;
+    padding-left: 15px;
+    position: relative;
+}
+
+ul li:before {
+    content: '\2022';
+    color: #007BFF;
+    font-weight: bold;
+    display: inline-block;
+    width: 10px;
+    margin-left: -15px;
+}
+
+.contact a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.contact p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.skills, .experience, .education, .achievements {
+    margin-bottom: 20px;
+}
+
+.container {
+    animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
