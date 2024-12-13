@@ -74,6 +74,28 @@ ul li:before {
     margin-bottom: 20px;
 }
 
+.experience {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.experience .job {
+    border-left: 4px solid #007BFF;
+    padding-left: 15px;
+}
+
+.experience .job h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.experience .job p {
+    margin: 5px 0;
+    color: #555;
+}
+
 .container {
     animation: fadeIn 1.5s ease;
 }
