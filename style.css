@@ -15,7 +15,86 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
+.bio {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f9f9f9;
+}
+.bio:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bio {
+    display: flex; /* Align image and text horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.bio img {
+    width: 200px; /* The visible width */
+    height: 330px; /* The visible height */
+    overflow: hidden; /* Ensures cropping */
+    object-fit: cover; /* Ensures the image fills the space while maintaining aspect ratio */
+    object-position: 70% 50%; /*Positions the focus on the middle-left */
+    margin-right: 20px;
+    border-radius: 10px; /* Optional: adds rounded corners */
+}
+.bio .content_txt {
+    flex: 1; /* Ensure the paragraph takes up remaining space */
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    text-align: justify;
+}
+.bio .content_txt a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+.bio .content_txt h3 {
+    margin: 0 0 0px; /* Adds spacing below the title */
+    font-size: 24px;
+}
+
+.exp {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f9f9f9;
+    text-align: justify;
+}
+.exp:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.exp h2{
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.exp a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+.exp ul {
+    padding-inline-start: 15px;
+}
+.exp ol {
+    padding-inline-start: 15px;
+}
+/* .exp {
+    display: flex; /* Align image and text horizontally
+    align-items: top; /* Center vertically
+} */
+
+/* h1, h2 {
     color: #333;
 }
 
@@ -31,9 +110,9 @@ h2 {
     border-bottom: 2px solid #007BFF;
     padding-bottom: 5px;
     color: #007BFF;
-}
+} */
 
-ul {
+/* ul {
     padding: 0;
     list-style: none;
 }
@@ -74,28 +153,6 @@ ul li:before {
     margin-bottom: 20px;
 }
 
-.experience {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.experience .job {
-    border-left: 4px solid #007BFF;
-    padding-left: 15px;
-}
-
-.experience .job h3 {
-    margin: 0;
-    font-size: 1.2em;
-    color: #333;
-}
-
-.experience .job p {
-    margin: 5px 0;
-    color: #555;
-}
-
 .container {
     animation: fadeIn 1.5s ease;
 }
@@ -107,4 +164,4 @@ ul li:before {
     to {
         opacity: 1;
     }
-}
+} */
