@@ -30,11 +30,17 @@ html {
     text-decoration: none;
     border-radius: 5px;
     font-size: 16px;
-    min-width: 180px; 
     transition: background 0.3s ease;
 }
+
 .banner_btn:hover {
     background: #0056b3;
+}
+
+a {
+    color: #0077FF;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 body {
@@ -189,6 +195,11 @@ body {
     margin-bottom: 0px;
     text-align: center;
 }
+/* .other a {
+    color: #0077FF;
+    text-decoration: none;
+    font-weight: bold;
+} */
 .other ul {
     padding-inline-start: 20px;
 }
