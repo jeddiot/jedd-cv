@@ -7,11 +7,30 @@
         <link rel="stylesheet" href="style.css"> <!-- Link the CSS file here -->
     </head>
 <body>
+    <div class="banner">
+        <div class="banner_content">
+            <div class="banner_content_txt">
+                Hi, Welcome to Jedd's Personal Website
+            </div>
+            <div class="banner_nav">
+                <a href="#experiences" class="banner_btn">Experiences 經歷</a>
+                <a href="#projects" class="banner_btn">Projects 專案</a>
+                <a href="#education" class="banner_btn">Education 學歷</a>
+                <a href="#honors" class="banner_btn">Honors & Awards 成就</a>
+                <a href="#publications" class="banner_btn">Publications 發表</a>
+                <a href="#extra" class="banner_btn">Extracurricular 課外活動</a>
+                <a href="#hobbies" class="banner_btn">Hobbies 休閒興趣</a>
+            </div>
+        </div>
+    </div>
     <div class="container">
-        <h1>Everything About Jedd</h1>
+        <!-- <span style="font-size: 16px; text-align: center;"><h1>Hi, Welcome to Jedd's Personal Website</h1></span> -->
         <div class="bio">
-            <img src = "me.jpg" alt="Cheng-Chun Yang">
-            <!-- </div> -->
+            <div class="content_pic">
+                <img src = "me.jpg" alt="Profile Picture" style="width: 600px;">
+                <p class="content_pic_caption_bg"></p>
+                <p class="content_pic_caption">NTHU College of Engineering <br>Student Competition</p>
+            </div>
             <div class="content_txt">
                 <h3>Cheng-Chun (Jedd) Yang, 楊承濬</h3>
                 <b>Fresh 2024 NTHU engineering graduate student</b><br><br>
@@ -23,41 +42,98 @@
                 <p><b>Language</b>: Mandarin Chinese (Native) / English (TOEIC 915).</p>    
             </div>
         </div>
-        <div class="exp">
+        
+        <div class="exp" id="experiences">
             <h2>Experiences</h2>
-            <b>2024 Aug - 2024 Oct, Research Assistant</b>, Extreme Event Computation Lab, Power Mechanical Engineering Dept., National Tsing Hua University.<br>
-            <b>2022 Sep - 2024 Aug, Researcher</b>, Extreme Event Computation Lab, Power Mechanical Engineering Dept., National Tsing Hua University.<br>
-                <p>Master Thesis: "Developing Stabilized Material Point Method for Free Surface Flow Modeling"</p>
-                <p>Using high-performance parallel computing package (Taichi Lang) in Python to implement mesh-free numerical methods, solving differential equation problems.</p>
-            <b>2021 Feb - 2021 Aug, Student Researcher</b>, Computational Fluid Dynamics Lab, Department of Engineering and System Science Dept., National Tsing Hua University.<br>
-                <p>Bachelo's Project: "Thermal Hydraulic Analysis for AB-BNCT Target using CFD Methodology"</p>
-                <p>Employing CFD methods using commercial software (Ansys Fluent) to analyze the heat transfer ability of the Accelerator-based Boron Neutron Capture Therapy (AB-BNCT), in collaboration with Heron Neutron Medical Corp.</p>
+            <div class="exp1">
+                <div class="exp1_date">
+                    2024 Aug - 2024 Oct
+                </div>
+                <div class="exp1_job">
+                    <b>Research Assistant</b>, Extreme Event Computation Lab, Power Mechanical Engineering Dept., National Tsing Hua University. 國立清華大學動力機械工程學系研究助理
+                </div>
+            </div>
+            <div class="exp1">
+                <div class="exp1_date">
+                    2022 Sep - 2024 Aug
+                </div>
+                <div class="exp1_job">
+                    <b>Researcher</b>, Extreme Event Computation Lab, Power Mechanical Engineering Dept., National Tsing Hua University. 國立清華大學動力機械工程學系研究生
+                </div>
+            </div>
+            <div class="exp1">
+                <div class="exp1_date">
+                    2021 Feb - 2021 Aug
+                </div>
+                <div class="exp1_job">
+                    <b>Student Researcher</b>, Computational Fluid Dynamics Lab, Department of Engineering and System Science Dept., National Tsing Hua University. 國立清華大學工程系統與科學系專題生
+                </div>
+            </div>
         </div>
-        <div class="exp">
+        <div class="other" id="projects">
+            <h2>Project</h2>
+            <ul>
+                <li><span style="color: #000000;"><b><em>Developing Stabilized Material Point Method for Free Surface Flow Modeling. (2023-2024)</em></b></span></li>
+                A Master's thesis under the guidance of <a href="https://huan0652.wixsite.com/thhuang" target="_blank">Prof. Tsung-Hui Huang</a>. Using high-performance parallel computing package (<a href="https://www.taichi-lang.org/" target="_blank">Taichi Lang</a>) in Python to implement mesh-free numerical methods, solving nonlinear differential equation (Navier-Stokes Equation) of free surface flow problems.
+                <li><span style="color: #000000;"><b><em>Diverse Forms of Denticles Facilitate the Evolutionary Success of Sharks. (2022-2023)</em></b></span></li>
+                A cross-department project under the guidance of <a href="https://huan0652.wixsite.com/thhuang" target="_blank">Prof. Tsung-Hui Huang</a>. Applying Python module (<a href="https://github.com/david-kamensky/VarMINT" target="_blank">VarMINT</a>) developed by Prof. David Kamensky to open-source computing platform <a href="https://fenicsproject.org/" target="_blank">FEniCS</a>, to conduct fluid-structure interaction simulation on shark's denticle. The simulation result contributes to the paper "Diverse Forms of Denticles Facilitate the Evolutionary Success of Sharks" which was submitted to <em>Nature Communications</em>.
+                <li><span style="color: #000000;"><b><em>Thermal Hydraulic Analysis for AB-BNCT Target using CFD Methodology. (2021)</em></b></span></li>
+                A Bachelor's project under the guidance of <a href="https://ess.site.nthu.edu.tw/p/406-1351-14626,r1665.php?Lang=zh-tw" target="_blank">Prof. Yu-Ming Ferng</a>. Applying CFD (Computational Fluid Dynamics) analysis with commercial software (Ansys Fluent / SolidWorks) to estimate the heat transfer ability of the Accelerator-Based Boron Neutron Capture Therapy (AB-BNCT), in collaboration with Heron Neutron Medical Corp. 
+            </ul>
+        </div>
+        <div class="exp" id = "education">
             <h2>Education</h2>
-            <b>2022 Sep - 2024 Aug, ME</b>, Power Mechanical Engineering, National Tsing Hua University, Taiwan.<br>
-            <b>2018 Sep - 2022 Jun, BE</b>, Interdisciplinary Program of Nuclear Science, National Tsing Hua University, Taiwan.<br>
+            <div class="exp1">
+                <div class="exp1_date">
+                    2022 Sep - 2024 Aug
+                </div>
+                <div class="exp1_job">
+                    ME, Power Mechanical Engineering, National Tsing Hua University, Taiwan. 國立清華大學動力機械工程學系碩士
+                </div>
+            </div>
+            <div class="exp1">
+                <div class="exp1_date">
+                    2018 Sep - 2022 Jun
+                </div>
+                <div class="exp1_job">
+                    BE, Interdisciplinary Program of Nuclear Science, National Tsing Hua University, Taiwan. 國立清華大學原子科學院學士班學士
+                </div>
+            </div>
         </div>
-        <div class="exp">
+        <div class="other" id="honors">
             <h2>Honors and Awards</h2>
             2024 Honorable Mention Award in NTHU College of Engineering Student Competition.<br>
             2024 Honorary Member: The Phi Tau Phi Scholastic Honor Society of the Republic of China.<br>
             2021 Second Place Award in Interdisciplinary Program of Nuclear Science Independent Study Competition.<br>
             2021 Honorable Mention in Chinese Society of Mechanical Engineers.<br>
         </div>
-        <div class="exp">
+        <div class="other" id="publications">
             <h2>Publications</h2>
             <ol>
                 <li>S.-F. Shen, R. Dahl, A. Ghimire, Y. Iizuka, J.-P. Huang, W.-C. Lin, C.-C. Yang, T.-H. Huang, G.-S. Mai, P. Møller, P.-Y. Chen, "Diverse Forms of Denticles Facilitate the Evolutionary Success of Sharks" <em>Submitted to Nature Communications</em>. (2024)</li>
                 <li>T.-H. Huang, C.-C. Yang, C. Rodriguez. "A Stabilized Concurrent Mixed Material Point Formulation for Weakly Incompressible Free Surface Flow Problems" <em>In preparation</em>. (2025)</li>
             </ol>
         </div>
-        <div class="exp">
+        <div class="exp" id = "extra">
             <h2>Extracurricular Activity</h2>
-            <b>2018 Sep - 2019 Jun, Design Officer</b>, Artistic Design Department of NTHU LOVE Club, .<br>
-            <b>2020 Feb - 2021 Jun, Student Councillor</b>, 29th NTHU Student Councillor.<br>
+            <div class="exp1">
+                <div class="exp1_date">
+                    2018 Sep - 2019 Jun
+                </div>
+                <div class="exp1_job">
+                    Design Officer, Artistic Design Department of NTHU LOVE Club.
+                </div>
+            </div>
+            <div class="exp1">
+                <div class="exp1_date">
+                    2020 Feb - 2021 Jun
+                </div>
+                <div class="exp1_job">
+                    Student Councillor, 29th NTHU Student Councillor.
+                </div>
+            </div>
         </div>
-        <div class="exp">
+        <div class="other" id="hobbies">
             <h2>Hobbies</h2>
             <ul>
                 <li>Watching movies.</li>
