@@ -162,18 +162,13 @@ body {
     align-items: flex-start;
     margin: 0 0 10px 0;
 }
-.exp .exp1_date {
+/* .exp .exp1_date {
     display: inline-block;
     min-width: 160px;
 }
-
+*/
 .exp .exp1_job {
-    margin: 0; 
-    /* display: inline-block; */
-    /* margin: 5px 0 0 150px;
-    text-indent: -150px;
-    padding-left: 160px;
-    line-height: 1.6; */
+    margin: 0 0 0 10px; /*[top] [right] [bottom] [left];*/
 }
 
 .other {
