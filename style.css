@@ -1,4 +1,4 @@
-html {
+/* html {
     scroll-behavior: smooth;
 }
 
@@ -35,7 +35,7 @@ html {
 
 .banner_btn:hover {
     background: #0056b3;
-}
+} */
 
 a {
     color: #0077FF;
@@ -51,7 +51,7 @@ body {
     background-color: #f4f4f4;
 }
 
-.container {
+.container_jedd {
     max-width: 1600px;
     margin: 20px auto;
     padding: 20px;
