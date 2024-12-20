@@ -58,3 +58,64 @@ body {
 .other ul, .other ol {
     padding-inline-start: 20px;
 }
+
+a {
+    color: #0077FF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container_jedd {
+    max-width: 1600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bio_pic {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 0;
+    overflow: hidden;
+    margin: 20px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f9f9f9;
+    text-align: justify;
+}
+.bio_pic:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.other {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f9f9f9;
+    text-align: justify;
+}
+.other:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.other h2{
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.other ul, .other ol {
+    padding-inline-start: 20px;
+}
