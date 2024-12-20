@@ -16,14 +16,14 @@ This is a static website showcasing a CV, designed and built using **Bootstrap**
 ## Access the Website
 Click the link below to visit the CV page:
 
-[Visit the Website](https://jeddiot.github.io/jeddCV/)
+[Visit the Website](https://jeddiot.github.io/jedd-cv/)
 
 ---
 
 ## How to Use
 1. Clone this repository:
    ```bash
-   git clone https://github.com/jeddiot/jeddCV.git
+   git clone https://github.com/jeddiot/jedd-cv.git
    ```
 2. Open the project folder.
 3. Open the `index.html` file in your preferred web browser to view the CV locally.
