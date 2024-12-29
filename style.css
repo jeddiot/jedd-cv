@@ -36,6 +36,26 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+.main_container {
+    display: flex; /* Use flexbox layout */
+    gap: 20px; /* Add some space between the columns */
+  }
+.main {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    flex: 1; /* Each child takes up equal width */
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f9f9f9; /* Optional: Add background color */
+    text-align: justify;
+}
+.main:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 .other {
     border: 1px solid #ddd;
     border-radius: 10px;
