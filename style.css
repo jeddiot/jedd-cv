@@ -145,3 +145,25 @@ body {
 .other ul, .other ol {
     padding-inline-start: 20px;
 }
+
+.contact-info {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.icon-link {
+    position: relative;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.icon-link img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon-link:hover img {
+    transform: scale(1.2);
+}
