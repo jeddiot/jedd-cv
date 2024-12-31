@@ -148,15 +148,21 @@ body {
 
 .contact-info {
     display: flex;
+    flex-wrap: wrap; /* Allow elements to wrap to the next line */
     gap: 15px;
     align-items: center;
+    justify-content: center; /* Center elements horizontally */
+}
+
+.social-links {
+    justify-content: center; /* Ensure icons are centered */
 }
 
 .icon-link {
     position: relative;
     display: inline-block;
-    width: 24px;
-    height: 24px;
+    width: 30px; /* Match image size for consistency */
+    height: 30px;
     cursor: pointer;
 }
 

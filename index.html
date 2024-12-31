@@ -24,6 +24,9 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#bio">Biography</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#currentfocus">Current Focus</a>
                         </li>
                         <li class="nav-item">
@@ -63,6 +66,7 @@
                 </div>
             </div>
         </nav>
+
         <!-- main -->
         <div class="container_jedd">
             <div class="bio_pic">
@@ -109,53 +113,46 @@
             </div>
             <!-- <span style="font-size: 16px; text-align: center;"><h1>Hi, Welcome to Jedd's Personal Website</h1></span> -->
             <!-- <div class="main_container"> -->
-            <div class="other">
-                <!-- <h2>Bio</h2> -->
-                <h3>Cheng-Chun (Jedd) Yang 楊承濬</h3>
-                <b>Fresh 2024 NTHU power mechanical engineering graduate student</b><br>
-                <img src="pic/mail-logo.png" alt="mail-logo" width="30" height="30"> <a href="mailto:yangjedd@gmail.com">yangjedd@gmail.com</a> |
-                <img src="pic/phone-logo.png" alt="phone-logo" width="30" height="30"> +886 961350607<br>
-                <!-- <img src="pic/github-logo.png" alt="github-logo" width="20" height="20"> <a href="https://github.com/jeddiot" target="_blank">github.com</a> |
-                <img src="pic/linkedin-logo.png" alt="linkedin-logo" width="20" height="20"> <a href="https://www.linkedin.com/in/cheng-chun-yang/" target="_blank">linkedin.com</a> |
-                <img src="pic/leetcode-logo.png" alt="leetcode-logo" width="18" height="20"> <a href="https://leetcode.com/u/jeddiot/" target="_blank">Leetcode.com</a><br><br> -->
-                <br>
-                <div class="contact-info">
-                    <!-- <a href="mailto:yangjedd@gmail.com" class="icon-link">
-                        <img src="pic/mail-logo.png" alt="mail-logo" width="30" height="30">
-                    </a> yangjedd@gmail.com | 
-                    <a href="tel:+886961350607" class="icon-link">
-                        <img src="pic/phone-logo.png" alt="phone-logo" width="30" height="30">
-                    </a> (+886) 961350607  -->
-                    <a href="https://github.com/jeddiot" target="_blank" class="icon-link">
-                        <img src="pic/github-logo.png" alt="github-logo" width="30" height="30">
-                    </a>
-                    <a href="https://www.linkedin.com/in/cheng-chun-yang/" target="_blank" class="icon-link">
-                        <img src="pic/linkedin-logo.png" alt="linkedin-logo" width="30" height="30">
-                    </a>
-                    <a href="https://leetcode.com/u/jeddiot/" target="_blank" class="icon-link">
-                        <img src="pic/leetcode-logo.png" alt="leetcode-logo" width="25" height="30">
-                    </a>
-                    <!-- <a href="https://www.instagram.com/jeddcodes/" target="_blank" class="icon-link">
-                        <img src="pic/instagram-logo.png" alt="instagram-logo" width="30" height="30">
-                    </a> -->
+            <div class="other" id = "bio">
+                <h2>Biography</h2>
+                <h3 style="text-align: center;">Cheng-Chun (Jedd) Yang 楊承濬</h3>
+                <p style="margin: 0; text-align: center;">Fresh 2024 NTHU power mechanical engineering graduate student</p>
+                
+                <div class="contact-info" style="margin-bottom: 10px;">
+                    <img src="pic/mail-logo.png" alt="Email" width="30" height="30"> 
+                    <a href="mailto:yangjedd@gmail.com">yangjedd@gmail.com</a> | 
+                    <img src="pic/phone-logo.png" alt="Phone" width="30" height="30"> 
+                    +886 961350607
                 </div>
-                <br>
+                <div class="contact-info social-links" style="margin-bottom: 10px;">
+                    <a href="https://github.com/jeddiot" target="_blank" class="icon-link">
+                        <img src="pic/github-logo.png" alt="GitHub" width="30" height="30">
+                    </a> | 
+                    <a href="https://www.linkedin.com/in/cheng-chun-yang/" target="_blank" class="icon-link">
+                        <img src="pic/linkedin-logo.png" alt="LinkedIn" width="30" height="30">
+                    </a> | 
+                    <a href="https://leetcode.com/u/jeddiot/" target="_blank" class="icon-link">
+                        <img src="pic/leetcode-logo.png" alt="LeetCode" width="26" height="30">
+                    </a>
+                </div>
+
                 <b>Skills</b>:<br>
                     <ul>
                         <li>Web Development
                             <ul>
-                                <li>Programming Languages: Python, JavaScript, C/C++</li>
-                                <li>Web Technologies: HTML, CSS, JSON, RESTful APIs</li>
-                                <li>Database Management: SQLite</li>
-                                <li>Frameworks: Bootstrap.js, Flask</li>
-                                <li>Tools: Git, Markdown</li>
+                                <li><b>Programming Languages</b>: Python, JavaScript, C/C++</li>
+                                <li><b>Web Technologies</b>: HTML, CSS, JSON, RESTful APIs</li>
+                                <li><b>Database</b> Management: SQLite</li>
+                                <li><b>Frameworks</b>: Bootstrap.js, Flask</li>
+                                <li><b>OS</b>: Windows, Linx (Learning in progress)</li>
+                                <li><b>Tools</b>: Git, Markdown</li>
                             </ul>
                         </li>
                         <li>Thermal Fluid Science (Heat Transfer, Fluid Dynamics, Thermodynamics)</li>
                         <li>Numerical Simulation
                             <ul>
                                 <li>Meshfree and Finite Element Methods</li>
-                                <li>Machine Learning (PINNs, Physics-Informed Neural Networks)</li>
+                                <li><b>Machine Learning</b> (PINNs, Physics-Informed Neural Networks)</li>
                             </ul>
                         </li>
                     </ul>
@@ -165,23 +162,29 @@
                     <li>English: TOEIC 915</li>
                 </ul>
             </div>
+
             <div class="other" id = "currentfocus">
                 <h2>Current Focus</h2>
                 <ul>
                     <li>Fundamental Study:
                         <ul>
-                            <li><b>Database Management System</b>, 3rd Edition, Raghu Ramakrishnan, Johannes Gehrke, 2003.</li>
-                            <li><b>Introduction to Algorithms</b>, 3rd Edition, Thomas H. Cormen, Charles E. Leiserson, 2009.</li>
+                            <li><b>Database</b>: Database Management System, 3rd Edition, Raghu Ramakrishnan, Johannes Gehrke, 2003.</li>
+                            <li><b>Algorithms</b>: Introduction to Algorithms, 3rd Edition, Thomas H. Cormen, Charles E. Leiserson, 2009.</li>
+                            <li><b>Linux</b>: The Linux Command Line - A Complete Introduction, Shotts W. E. Jr., 2012.</li>
                         </ul>
                     </li>
                     <li>Projects:
                         <ul>
-                            <li><a href="https://github.com/jeddiot/puppy-adoption" target="_blank">Web Application (Work in Progress)</a> using <b>Bootstrap.js</b> to build frontend, <b>Flask</b> and <b>MySQL</b> to build backend and database, and <b>Docker</b> to fetch required data.</li>
+                            <li><a href="https://github.com/jeddiot/puppy-adoption" target="_blank">Social Company Blog (Work in Progress)</a> <br>
+                                <b>Current Goal</b>: Use <b>Bootstrap.js</b> to build frontend; use <b>Flask</b> and <b>SQLite</b> to build backend and database; deploy on Heroku. <br>
+                                <b>Future Goal</b>: Replace Bootstrap.js with <b>React.js</b>; replace SQLite with <b>MySQL</b>; deploy on <b>Linux</b> server.
+                                Use <b>Docker</b> to fetch required data.
+                            </li>
                         </ul>
                     </li>
                     <li>Basic Training:
                         <ul>
-                            <li><a href="https://leetcode.com/u/jeddiot/" target="_blank">Leetcode</a> (1+ solved each day)</li>
+                            <li><a href="https://leetcode.com/u/jeddiot/" target="_blank">Leetcode</a> (2~3+ solved each day)</li>
                         </ul>
                     </li>
                 </ul>
@@ -211,22 +214,22 @@
             </div>
             <div class="other" id="honors">
                 <h2>Honors and Awards</h2>
-                2024 Honorable Mention Award in NTHU College of Engineering Student Competition.<br>
-                2024 Honorary Member: The Phi Tau Phi Scholastic Honor Society of the Republic of China.<br>
-                2021 Second Place Award in Interdisciplinary Program of Nuclear Science Independent Study Competition.<br>
-                2021 Honorable Mention in Chinese Society of Mechanical Engineers.<br>
+                2024 <b>Honorable Mention</b> Award in NTHU College of Engineering Student Competition.<br>
+                2024 <b>Honorary Member</b>: The Phi Tau Phi Scholastic Honor Society of the Republic of China.<br>
+                2021 <b>Second Place Award</b> in Interdisciplinary Program of Nuclear Science Independent Study Competition.<br>
+                2021 <b>Honorable Mention</b> in Chinese Society of Mechanical Engineers.<br>
             </div>
             <div class="other" id="publications">
                 <h2>Publications</h2>
                 <ol>
-                    <li>S.-F. Shen, R. Dahl, A. Ghimire, Y. Iizuka, J.-P. Huang, W.-C. Lin, C.-C. Yang, T.-H. Huang, G.-S. Mai, P. Møller, P.-Y. Chen, "Diverse Forms of Denticles Facilitate the Evolutionary Success of Sharks" <em>Submitted to Nature Communications</em>. (2024)</li>
-                    <li>T.-H. Huang, C.-C. Yang, C. Rodriguez. "A Stabilized Concurrent Mixed Material Point Formulation for Weakly Incompressible Free Surface Flow Problems" <em>In preparation</em>. (2025)</li>
+                    <li>S.-F. Shen, R. Dahl, A. Ghimire, Y. Iizuka, J.-P. Huang, W.-C. Lin, <b>C.-C. Yang</b>, T.-H. Huang, G.-S. Mai, P. Møller, P.-Y. Chen, "Diverse Forms of Denticles Facilitate the Evolutionary Success of Sharks" <em>Submitted to Nature Communications</em>. (2024)</li>
+                    <li>T.-H. Huang, <b>C.-C. Yang</b>, C. Rodriguez. "A Stabilized Concurrent Mixed Material Point Formulation for Weakly Incompressible Free Surface Flow Problems" <em>In preparation</em>. (2025)</li>
                 </ol>
             </div>
             <div class="other" id="club">
                 <h2>Extracurricular Activity</h2>
-                2018 Sep - 2019 Jun, Design Officer, Artistic Design Department of NTHU LOVE Club. <br>
-                2020 Feb - 2021 Jun, Student Councillor, 29th NTHU Student Councillor. <br>
+                2018 Sep - 2019 Jun, <b>Design Officer</b>, Artistic Design Department of NTHU LOVE Club. <br>
+                2020 Feb - 2021 Jun, <b>Student Councillor</b>, 29th NTHU Student Councillor. <br>
             </div>
             <div class="other" id="hobbies">
                 <h2>Hobbies</h2>
