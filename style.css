@@ -96,3 +96,4 @@ figcaption {
 .nav-link:hover {color: #f8f9fa !important;}
 /* Optional: Navbar brand hover effect */
 .navbar-brand:hover {color: #f8f9fa !important;}
+.text-white {color: white !important;}
