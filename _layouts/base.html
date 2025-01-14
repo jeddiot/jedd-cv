@@ -9,38 +9,11 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </head>
     <body>
-        <!-- <nav class="navbar navbar-expand-lg bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand text-white" href="#">Jedd's Website</a>
-                <button class="navbar-toggler bg-dark-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item text-white">
-                            <a class="nav-link active" aria-current="page" href="index.html">
-                                Home
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="project.html">
-                                Projects
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">
-                                Contact
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav> -->
         <nav class="navbar navbar-expand-lg" style="background-color: #252525;" >
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Jedd's Website</a>
-                <button class="navbar-toggler" style="background-color: #333232;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" style="background-color: #252525;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" style="background-color: #474545;"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -68,22 +41,5 @@
                 {{ content }}
             </div>
         </main>
-
-        <script>
-            window.addEventListener('DOMContentLoaded', (event) => {
-                const codeBlock = document.getElementById('code-block');
-                const codeText = codeBlock.innerText || codeBlock.textContent;
-        
-                // Apply simple syntax highlighting using regex for demo purposes
-                const highlightedCode = codeText
-                    .replace(/(void|int|string|cout|using|namespace)/g, '<span class="keyword">$1</span>')
-                    .replace(/(&lt;.*?&gt;)/g, '<span class="string">$1</span>') // for the #include part
-                    .replace(/(greet|main)/g, '<span class="function">$1</span>')
-                    .replace(/(\/\/.*)/g, '<span class="comment">$1</span>');
-                
-                codeBlock.innerHTML = highlightedCode;
-            });
-        </script>
-
     </body>
 </html>
