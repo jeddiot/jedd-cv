@@ -6,17 +6,42 @@ title: Jedd's Website - Home
     <!-- <h2>Biography</h2> -->
     <h3 style="text-align: center;">Cheng-Chun (Jedd) Yang 楊承濬</h3>
     <p style="margin: 0; text-align: center;"><b>2024 NTHU Mechanical Engineering Graduate</b></p>
-    <pre>
-        <code>
-        int main() {
-            cout << "Hello, world, this is Jedd!" << endl;
-            return 0;
-        }
-        </code>
-    </pre>
-    <p style="margin: 0; text-align: center; max-width: 750px; margin-left: auto; margin-right: auto;">
-        Hi, welcome to my website! I have 2 years of experience in Python and C++ development, specializing in Numerical Methods and Machine Learning during my master's. Currently, I'm honing my C++ skills and exploring Linux environment. I'm bilingual in Mandarin Chinese (native) and English (TOEIC 915).
-    </p>
+    
+    <div class="code-container">
+        <div class="code-header">
+            JavaScript Code Example
+        </div>
+        <pre id="code-block">
+            <code>
+                <span class="comment">// This is a simple function in JavaScript</span>
+                <span class="keyword">function</span> <span class="function">greet</span>() {
+                    <span class="keyword">let</span> message = <span class="string">"Hello, World!"</span>;
+                    <span class="keyword">console</span>.<span class="function">log</span>(message);
+                }
+                <span class="function">greet</span>();
+            </code>
+        </pre>
+    </div>
+
+    <script>
+        // Example JavaScript to handle syntax highlighting dynamically
+        window.addEventListener('DOMContentLoaded', (event) => {
+            const codeBlock = document.getElementById('code-block');
+            const codeText = codeBlock.innerText || codeBlock.textContent;
+
+            // Apply simple syntax highlighting using regex for demo purposes
+            const highlightedCode = codeText
+                .replace(/(function|let|const|var|console)/g, '<span class="keyword">$1</span>')
+                .replace(/(".*?")/g, '<span class="string">$1</span>')
+                .replace(/(greet|log)/g, '<span class="function">$1</span>')
+                .replace(/(\/\/.*)/g, '<span class="comment">$1</span>');
+            
+            codeBlock.innerHTML = highlightedCode;
+        });
+    </script>
+    <!-- <p style="margin: 0; text-align: center; max-width: 750px; margin-left: auto; margin-right: auto;">
+        Welcome to my website!
+    </p> -->
 </div>
 
 <div class="other" id = "skills">
