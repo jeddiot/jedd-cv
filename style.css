@@ -130,7 +130,23 @@ figcaption {
     color: #97d679;
 }
 
-/* .keyword { color: #569cd6; font-weight: bold; }
-.string { color: #ce9178; }
-.function { color: #dcdcaa; }
-.comment { color: #6a9955; font-style: italic; } */
+.bg-custom {
+    background-color: #333232 !important;
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link.active {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #f8f9fa !important;
+}
+
+/* Optional: Navbar brand hover effect */
+.navbar-brand:hover {
+    color: #f8f9fa !important;
+}
