@@ -2,7 +2,7 @@
 
 This is a static website showcasing a CV, designed and built using **Bootstrap** for a clean and responsive layout.
 
-![Bootstrap Logo](https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap Logo" style="width: 50px; height: auto;">
 
 ---
 
