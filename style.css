@@ -8,14 +8,14 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #000000 !important;
+    background-color: #252525 !important;
 }
 
 .container_jedd {
     max-width: 1600px;
     margin: 20px auto;
     padding: 20px;
-    background: #000000;
+    background: #252525;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -62,7 +62,7 @@ body {
 } */
 
 .other {
-    border: 1px solid #ddd;
+    border: 1px solid #535353;
     border-radius: 10px;
     padding: 20px;
     margin: 20px 0;
@@ -73,7 +73,7 @@ body {
 }
 .other:hover {
     transform: scale(1.05);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.595);
 }
 .other h2{
     font-size: 24px;
@@ -127,7 +127,7 @@ figcaption {
     margin-top: 10px;
     font-style: italic;
     font-size: 0.9rem;
-    color: #6a9955;
+    color: #97d679;
 }
 
 /* .keyword { color: #569cd6; font-weight: bold; }
