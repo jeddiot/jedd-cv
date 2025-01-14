@@ -13,7 +13,7 @@ This is a static website showcasing Jedd's frontend design ability using **Boots
 ## Access the Website
 Click the link below to visit the CV page:
 
-[Visit the Website](https://jeddiot.github.io/persona;-website/)
+[Visit the Website](https://jeddiot.github.io/personal-website/)
 
 ---
 
