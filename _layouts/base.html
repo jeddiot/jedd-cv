@@ -54,5 +54,22 @@
                 {{ content }}
             </div>
         </main>
+
+        <script>
+            window.addEventListener('DOMContentLoaded', (event) => {
+                const codeBlock = document.getElementById('code-block');
+                const codeText = codeBlock.innerText || codeBlock.textContent;
+        
+                // Apply simple syntax highlighting using regex for demo purposes
+                const highlightedCode = codeText
+                    .replace(/(void|int|string|cout|using|namespace)/g, '<span class="keyword">$1</span>')
+                    .replace(/(&lt;.*?&gt;)/g, '<span class="string">$1</span>') // for the #include part
+                    .replace(/(greet|main)/g, '<span class="function">$1</span>')
+                    .replace(/(\/\/.*)/g, '<span class="comment">$1</span>');
+                
+                codeBlock.innerHTML = highlightedCode;
+            });
+        </script>
+
     </body>
 </html>

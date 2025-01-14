@@ -13,18 +13,12 @@ title: Jedd's Website - Home
         </div> -->
         <pre id="code-block">
             <code>
-                // This is a simple function in JavaScript
-                function greet() {
-                    let message = "Hello, World!";
-                    console.log(message);
+                int main() {
+                    cout<<""Hello, world, this is Jedd."";
                 }
-                greet();
             </code>
         </pre>
     </div>
-    <!-- <p style="margin: 0; text-align: center; max-width: 750px; margin-left: auto; margin-right: auto;">
-        Welcome to my website!
-    </p> -->
 </div>
 
 <div class="other" id = "skills">
@@ -123,19 +117,3 @@ title: Jedd's Website - Home
         <li>Socializing with friends.</li>
     </ul>
 </div> -->
-
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        const codeBlock = document.getElementById('code-block');
-        const codeText = codeBlock.innerText || codeBlock.textContent;
-
-        // Apply simple syntax highlighting using regex for demo purposes
-        const highlightedCode = codeText
-            .replace(/(function|let|const|var|console)/g, '<span class="keyword">$1</span>')
-            .replace(/(".*?")/g, '<span class="string">$1</span>')
-            .replace(/(greet|log)/g, '<span class="function">$1</span>')
-            .replace(/(\/\/.*)/g, '<span class="comment">$1</span>');
-        
-        codeBlock.innerHTML = highlightedCode;
-    });
-</script>
