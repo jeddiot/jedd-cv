@@ -11,8 +11,7 @@ body {
     background-color: #000000 !important;
 }
 
-/* Code section style */
-.code-container {
+/* .code-container {
     display: block;
     margin: 0 auto;
     background-color: #2d2d2d;
@@ -24,7 +23,6 @@ body {
     max-width: 800px;
 }
 
-/* Header with title */
 .code-header {
     background-color: #1a1a1a;
     padding: 10px;
@@ -32,7 +30,7 @@ body {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-}
+} */
 
 /* Styled code area */
 pre {
