@@ -8,7 +8,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #000000;
+    background-color: #000000 !important;
 }
 
 /* Code section style */
@@ -57,12 +57,12 @@ pre {
     max-width: 1600px;
     margin: 20px auto;
     padding: 20px;
-    background: white;
+    background: rgb(167, 162, 162);
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.bio_pic {
+/* .bio_pic {
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 0;
@@ -78,18 +78,18 @@ pre {
 }
 
 .main_container {
-    display: flex; /* Use flexbox layout */
-    gap: 20px; /* Add some space between the columns */
+    display: flex;
+    gap: 20px;
 }
 .main {
     border: 1px solid #ddd;
     border-radius: 10px;
-    flex: 1; /* Each child takes up equal width */
+    flex: 1;
     padding: 20px;
     margin: 20px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    background-color: #f9f9f9; /* Optional: Add background color */
+    background-color: #f9f9f9;
     text-align: justify;
 }
 .main:hover {
@@ -101,7 +101,7 @@ pre {
     margin-top: 0px;
     margin-bottom: 0px;
     text-align: center;
-}
+} */
 
 .other {
     border: 1px solid #ddd;
