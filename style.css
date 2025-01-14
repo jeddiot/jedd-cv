@@ -1,5 +1,5 @@
 a {
-    color: #0077FF;
+    color: #3fafff;
     text-decoration: none;
 }
 
@@ -127,5 +127,10 @@ figcaption {
     margin-top: 10px;
     font-style: italic;
     font-size: 0.9rem;
-    color: #555;
+    color: #6a9955;
 }
+
+/* .keyword { color: #569cd6; font-weight: bold; }
+.string { color: #ce9178; }
+.function { color: #dcdcaa; }
+.comment { color: #6a9955; font-style: italic; } */
